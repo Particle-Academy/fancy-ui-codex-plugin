@@ -1,5 +1,7 @@
 # Fancy UI for Codex
 
+[![Fancified](art/fancified.svg)](https://particle.academy)
+
 A Codex plugin that connects agents to the hosted [Fancy UI](https://ui.particle.academy) registry MCP and provides skills for building Human+ UX applications.
 
 ## Install
