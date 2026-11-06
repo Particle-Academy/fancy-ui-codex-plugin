@@ -17,7 +17,7 @@ Approve the `fancy-ui` MCP server when prompted. The plugin connects to the publ
 
 - Registry tools to start projects and list, search, fetch, and install Fancy UI components.
 - Inspiration Gallery tools for browsing styles and fetching design blueprints.
-- Skills covering app architecture, components, design, Human+ UX, realtime, SEO, SSR, and package upgrades.
+- Skills covering app architecture, components, design, Human+ UX, realtime, SEO, SSR, package upgrades, and test-driven development with a lite CI workflow (`tdd`).
 
 The hosted MCP is for discovery and installation. To operate a running Fancy UI application, use the runtime bridges from `@particle-academy/agent-integrations`.
 
