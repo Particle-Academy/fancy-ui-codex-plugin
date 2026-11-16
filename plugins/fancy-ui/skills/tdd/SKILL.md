@@ -1,9 +1,9 @@
 ---
 name: tdd
-description: Use when writing tests or setting up testing and CI for a Fancy UI app — test-driven development (TDD), test first, writing a failing test, a regression test for a bug fix, Pest (PHP / Laravel), vitest (TypeScript / React), browser tests, accessibility tests, testing Fancy UI components by their stable handles, and a lite CI workflow on GitHub Actions. Triggers on "TDD", "write tests", "test first", "failing test", "regression test", "Pest", "vitest", "browser tests", "accessibility tests", "a11y test", "CI", "GitHub Actions", "set up testing", "/tdd".
+description: Use when writing tests or setting up testing and CI for a Fancy Dev Kit app — test-driven development (TDD), test first, writing a failing test, a regression test for a bug fix, Pest (PHP / Laravel), vitest (TypeScript / React), browser tests, accessibility tests, testing Fancy Dev Kit components by their stable handles, and a lite CI workflow on GitHub Actions. Triggers on "TDD", "write tests", "test first", "failing test", "regression test", "Pest", "vitest", "browser tests", "accessibility tests", "a11y test", "CI", "GitHub Actions", "set up testing", "/tdd".
 ---
 
-# Test-driven development for a Fancy UI app
+# Test-driven development for a Fancy Dev Kit app
 
 Write the test before the code, keep the suite honest, and give the project one
 small CI workflow that runs it on every change. This is about *the user's app*;
@@ -70,7 +70,7 @@ it; match the existing setup instead.
   });
   ```
 
-## Testing Fancy UI components
+## Testing Fancy Dev Kit components
 
 Fancy's interactive components are **controlled** (`value` + `onChange`, or
 `checked` + `onCheckedChange` for toggles) and carry **stable handles**: an `id`

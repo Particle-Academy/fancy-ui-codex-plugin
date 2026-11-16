@@ -1,7 +1,7 @@
 {
   "name": "fancy-ui",
   "version": "0.1.2",
-  "description": "Browse, search, and install Fancy UI components conversationally, and build Human+ UX apps where agents share the UI. Bundles the hosted registry MCP and skills.",
+  "description": "Browse, search, and install Fancy Dev Kit components conversationally, and build Human+ UX apps where agents share the UI. Bundles the hosted registry MCP and skills.",
   "author": {
     "name": "Particle Academy",
     "url": "https://ui.particle.academy"
@@ -26,9 +26,9 @@
     }
   },
   "interface": {
-    "displayName": "Fancy UI",
-    "shortDescription": "Registry MCP and skills for Fancy UI.",
-    "longDescription": "Find, install, and compose Fancy UI components through the hosted registry MCP, then build Human+ UX applications where humans and agents share the same UI surface.",
+    "displayName": "Fancy Dev Kit",
+    "shortDescription": "Registry MCP and skills for Fancy Dev Kit.",
+    "longDescription": "Find, install, and compose Fancy Dev Kit components through the hosted registry MCP, then build Human+ UX applications where humans and agents share the same UI surface.",
     "developerName": "Particle Academy",
     "category": "Developer Tools",
     "capabilities": [
@@ -37,9 +37,9 @@
     ],
     "websiteURL": "https://ui.particle.academy",
     "defaultPrompt": [
-      "Find the right Fancy UI components for this app.",
-      "Design this interface with Fancy UI.",
-      "Make this Fancy UI surface agent-driveable."
+      "Find the right Fancy Dev Kit components for this app.",
+      "Design this interface with Fancy Dev Kit.",
+      "Make this Fancy Dev Kit surface agent-driveable."
     ],
     "brandColor": "#2563EB",
     "screenshots": []

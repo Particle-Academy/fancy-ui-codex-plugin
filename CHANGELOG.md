@@ -9,6 +9,10 @@ This file starts at 0.1.1. Earlier releases are recorded in the git history.
 
 ## [Unreleased]
 
+### Changed
+
+- Rebranded the display name to Fancy Dev Kit (for SaaSy Agents). Package names, the npm scope, `fancy-cli`, the `fancy-ui` MCP server id and plugin name, and every URL are unchanged, so nothing to do.
+
 ## [0.1.2] - 2026-11-06
 
 ### Fixed

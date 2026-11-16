@@ -1,9 +1,9 @@
 ---
 name: seo
-description: Use when making a Fancy UI + Inertia app crawlable, shareable, and legible to LLMs — per-page title / meta / canonical / robots, Open Graph + Twitter cards, schema.org JSON-LD structured data, and dynamic sitemap.xml / robots.txt / llms.txt + per-page Markdown. Covers the client `<Seo>` head helper + JSON-LD builders (`@particle-academy/fancy-inertia/seo`) and the server-rendered baseline (`particle-academy/fancy-seo` Laravel package); pair with the `ssr` skill so the meta lands on the first byte. Triggers on "SEO", "meta tags", "Open Graph", "OG image", "Twitter card", "structured data", "JSON-LD", "schema.org", "sitemap.xml", "robots.txt", "llms.txt", "canonical URL", "noindex", "rich link preview", "crawlable", "<Seo>", "fancy-seo".
+description: Use when making a Fancy Dev Kit + Inertia app crawlable, shareable, and legible to LLMs — per-page title / meta / canonical / robots, Open Graph + Twitter cards, schema.org JSON-LD structured data, and dynamic sitemap.xml / robots.txt / llms.txt + per-page Markdown. Covers the client `<Seo>` head helper + JSON-LD builders (`@particle-academy/fancy-inertia/seo`) and the server-rendered baseline (`particle-academy/fancy-seo` Laravel package); pair with the `ssr` skill so the meta lands on the first byte. Triggers on "SEO", "meta tags", "Open Graph", "OG image", "Twitter card", "structured data", "JSON-LD", "schema.org", "sitemap.xml", "robots.txt", "llms.txt", "canonical URL", "noindex", "rich link preview", "crawlable", "<Seo>", "fancy-seo".
 ---
 
-# SEO + crawlability for Fancy UI apps
+# SEO + crawlability for Fancy Dev Kit apps
 
 A Fancy app is an Inertia + React SPA: the browser fills it in *after* the JS
 loads. Great for humans, but a search crawler, a social-card scraper, or an LLM
@@ -49,7 +49,7 @@ lands on the first byte when SSR is on** — see the `ssr` skill; without SSR th
 >
 > ```tsx
 > const seoDefaults = defineSeo({
->   siteName: "Fancy UI", titleTemplate: "%s — Fancy UI", /* … */
+>   siteName: "Fancy Dev Kit", titleTemplate: "%s — Fancy Dev Kit", /* … */
 >   clientOnly: true,   // ← Blade baseline owns the SSR head; <Seo> never duplicates it
 > });
 > // <SeoProvider value={seoDefaults}> … </SeoProvider>  (same in app + ssr entry)
@@ -69,11 +69,11 @@ export default function PackagePage({ pkg }) {
   return (
     <>
       <Seo
-        title={`${pkg.name} — Fancy UI`}
+        title={`${pkg.name} — Fancy Dev Kit`}
         description={pkg.tagline}
         canonical={pkg.url}        // absolute → canonical + og:url
         image={pkg.ogImage}        // absolute → og:image + twitter:image
-        siteName="Fancy UI"
+        siteName="Fancy Dev Kit"
         noindex={pkg.private}      // robots: noindex,nofollow for admin/auth/staging
         jsonLd={[
           softwareSourceCode({ name: pkg.name, url: pkg.url, codeRepository: pkg.repo, programmingLanguage: "TypeScript" }),
@@ -124,13 +124,13 @@ Configure the per-route head in a service provider (or `config/fancy-seo.php`):
 use ParticleAcademy\FancySeo\Facades\FancySeo;
 
 FancySeo::defaults([
-    'site_name' => 'Fancy UI',
-    'title'     => 'Fancy UI',
+    'site_name' => 'Fancy Dev Kit',
+    'title'     => 'Fancy Dev Kit',
     'image'     => '/og/default.png',
     'locale'    => 'en_US',
 ])
 ->route('packages.show', fn ($req) => [
-    'title'       => $req->route('package').' — Fancy UI',
+    'title'       => $req->route('package').' — Fancy Dev Kit',
     'description' => '…',
     'canonical'   => $req->url(),
     'image'       => "/og/{$req->route('package')}.png",

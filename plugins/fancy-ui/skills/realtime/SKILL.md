@@ -1,6 +1,6 @@
 ---
 name: realtime
-description: Use when adding real-time / live updates to a Fancy UI + Laravel app — Laravel Echo / broadcasting (Reverb, Pusher), live cache invalidation, presence, or syncing server state across clients and agents. Triggers on "Echo", "broadcasting", "real-time", "live updates", "websocket", "Reverb", "Pusher", "presence channel", "invalidate on event", "fancy-query", "streaming chat", "useFancyStream".
+description: Use when adding real-time / live updates to a Fancy Dev Kit + Laravel app — Laravel Echo / broadcasting (Reverb, Pusher), live cache invalidation, presence, or syncing server state across clients and agents. Triggers on "Echo", "broadcasting", "real-time", "live updates", "websocket", "Reverb", "Pusher", "presence channel", "invalidate on event", "fancy-query", "streaming chat", "useFancyStream".
 ---
 
 # Real-time with Echo + fancy-query

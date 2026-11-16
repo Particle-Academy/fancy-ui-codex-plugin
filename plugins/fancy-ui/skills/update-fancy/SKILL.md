@@ -1,9 +1,9 @@
 ---
 name: update-fancy
-description: Use when the user wants to update/upgrade their project to the latest Fancy UI / Particle Academy packages — bumping every @particle-academy/* (npm) and particle-academy/* (Composer) dependency to its newest release, reviewing what changed, and adapting the project to breaking changes + worthwhile new APIs. Triggers on "update fancy", "update fancy ui", "upgrade fancy packages", "bump fancy to latest", "latest fancy", "/update-fancy".
+description: Use when the user wants to update/upgrade their project to the latest Fancy Dev Kit / Particle Academy packages — bumping every @particle-academy/* (npm) and particle-academy/* (Composer) dependency to its newest release, reviewing what changed, and adapting the project to breaking changes + worthwhile new APIs. Triggers on "update fancy", "update fancy ui", "upgrade fancy packages", "bump fancy to latest", "latest fancy", "/update-fancy".
 ---
 
-# Update a project to the latest Fancy UI packages
+# Update a project to the latest Fancy Dev Kit packages
 
 Bring every Particle Academy dependency in the user's project up to its newest
 release, **review what actually changed**, then update their code to match —
@@ -36,7 +36,7 @@ numbers**, npm / Packagist are the source (the registry's install commands pull
 > and its docs links don't answer the question.
 
 If the registry MCP isn't connected, tell the user to enable the plugin with
-`codex plugin add fancy-ui@fancy-ui` after adding the Fancy UI marketplace and
+`codex plugin add fancy-ui@fancy-ui` after adding the Fancy Dev Kit marketplace and
 approve the
 `fancy-ui` MCP server — don't substitute repo browsing for it.
 

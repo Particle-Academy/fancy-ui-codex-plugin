@@ -1,12 +1,12 @@
 ---
 name: design
 description: >-
-  Use at the BEGINNING of designing a new app or a redesign — to choose a visual direction before building anything. Surfaces the Fancy UI Inspiration Gallery (read-only design blueprints in collections — fictional businesses/apps each designed 20 ways: the FIELDWORK studio site from Swiss-minimal to agent-native, the Mom-n-Pops food truck from warm storefronts to live data surfaces, and Dashboards — 20 chart-driven app dashboards from fitness to fleet ops), lets the user pick one or blend several, grabs the blueprint recipes via the hosted fancy-ui MCP, and turns them into a concrete design direction (tokens, component palette, layout) to build with the Fancy kit. Triggers on "design a new app/site", "design direction", "design system", "what should it look like", "pick a style", "blend styles", "inspiration gallery", "redesign", "art direction", "choose a look", "moodboard", "dashboard design", "how should this look".
+  Use at the BEGINNING of designing a new app or a redesign — to choose a visual direction before building anything. Surfaces the Fancy Dev Kit Inspiration Gallery (read-only design blueprints in collections — fictional businesses/apps each designed 20 ways: the FIELDWORK studio site from Swiss-minimal to agent-native, the Mom-n-Pops food truck from warm storefronts to live data surfaces, and Dashboards — 20 chart-driven app dashboards from fitness to fleet ops), lets the user pick one or blend several, grabs the blueprint recipes via the hosted fancy-ui MCP, and turns them into a concrete design direction (tokens, component palette, layout) to build with the Fancy kit. Triggers on "design a new app/site", "design direction", "design system", "what should it look like", "pick a style", "blend styles", "inspiration gallery", "redesign", "art direction", "choose a look", "moodboard", "dashboard design", "how should this look".
 ---
 
-# Designing with the Fancy UI Inspiration Gallery
+# Designing with the Fancy Dev Kit Inspiration Gallery
 
-Before writing components, settle the **look**. The Fancy UI **Inspiration Gallery** is the design-phase companion to the `components` skill: fictional businesses/apps, each designed **20 ways** from the same restyled Fancy primitives — proof that the kit is a box of primitives you can restyle for almost any use case. Three collections today (60 designs):
+Before writing components, settle the **look**. The Fancy Dev Kit **Inspiration Gallery** is the design-phase companion to the `components` skill: fictional businesses/apps, each designed **20 ways** from the same restyled Fancy primitives — proof that the kit is a box of primitives you can restyle for almost any use case. Three collections today (60 designs):
 
 - **`fieldwork`** — FIELDWORK, a creative-studio portfolio, common → experimental (Swiss-minimal to agent-native).
 - **`mom-n-pops`** — Mom-n-Pops, a Milwaukee family food truck: the same truck as twenty complete sites, one cuisine per style, storefront → data surface. Many weave in a live Fancy surface (order-tracker kanban, build-your-own configurators, a today's-catch board, a cook timeline, a reservations calendar, ⌘K ordering, agentic catering) — grab these when the user's app needs a *working* surface idea, not just a look.
@@ -24,7 +24,7 @@ This skill uses the **hosted fancy-ui registry MCP** (`https://ui.particle.acade
 
 From the grabbed recipe(s), produce a short, concrete **design direction** for the user to approve *before* building:
 
-- **Tokens** — the Tailwind v4 `@theme` values: background, foreground, one or two accents, a display + a mono font, radii, border weight, motion. Fancy UI is Tailwind-first; **zinc** is the default neutral spine, **blue/violet** the brand accents, and the only gradient is the brand mark.
+- **Tokens** — the Tailwind v4 `@theme` values: background, foreground, one or two accents, a display + a mono font, radii, border weight, motion. Fancy Dev Kit is Tailwind-first; **zinc** is the default neutral spine, **blue/violet** the brand accents, and the only gradient is the brand mark.
 - **Component palette** — which Fancy components carry which sections, and *how they are restyled* to wear the look (the blueprint's `palette` is the source of truth).
 - **Layout** — the grid + section rhythm from the blueprint's `layout` and `sections`.
 - **Content** — the user's real content slotted into the blueprint's `contentArchetype`.
@@ -41,7 +41,7 @@ The MCP server may not be connected. Point the user to the online gallery
 (**ui.particle.academy/inspiration**) to browse + grab blueprints by hand (each style
 page has a "Grab this design" button that copies the same recipe), and tell them to
 enable this plugin with `codex plugin add fancy-ui@fancy-ui` after adding the
-Fancy UI marketplace, and
+Fancy Dev Kit marketplace, and
 approve the `fancy-ui` MCP server so the `gallery-list-styles` /
 `gallery-get-blueprint` tools light up.
 

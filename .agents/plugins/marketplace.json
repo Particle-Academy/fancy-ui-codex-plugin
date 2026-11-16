@@ -1,7 +1,7 @@
 {
   "name": "fancy-ui",
   "interface": {
-    "displayName": "Fancy UI"
+    "displayName": "Fancy Dev Kit"
   },
   "plugins": [
     {

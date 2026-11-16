@@ -1,11 +1,11 @@
 ---
 name: ssr
-description: Use when server-side rendering a Fancy UI + Inertia app or fixing SSR problems — getting real HTML on the first byte, wiring createFancyServer / setupFancyApp / hydrateRoot + the SSR node process, fixing hydration mismatches (React #418), and deciding what can/can't render on the server (FancyClientOnly). This is the RENDERING mechanic; for meta tags / Open Graph / sitemaps / structured data see the `seo` skill. Triggers on "SSR", "server-side rendering", "Inertia SSR", "hydration mismatch", "FancyClientOnly", "window/document is not defined", "first paint / flash of empty content", "renderToString", "hydrateRoot".
+description: Use when server-side rendering a Fancy Dev Kit + Inertia app or fixing SSR problems — getting real HTML on the first byte, wiring createFancyServer / setupFancyApp / hydrateRoot + the SSR node process, fixing hydration mismatches (React #418), and deciding what can/can't render on the server (FancyClientOnly). This is the RENDERING mechanic; for meta tags / Open Graph / sitemaps / structured data see the `seo` skill. Triggers on "SSR", "server-side rendering", "Inertia SSR", "hydration mismatch", "FancyClientOnly", "window/document is not defined", "first paint / flash of empty content", "renderToString", "hydrateRoot".
 ---
 
-# SSR + hydration with Fancy UI
+# SSR + hydration with Fancy Dev Kit
 
-Fancy UI apps should render real content on the **first byte** — for crawlers, social/LLM scrapers, perceived speed, and a stable first paint — then hydrate to interactive. `@particle-academy/fancy-inertia` is built for this.
+Fancy Dev Kit apps should render real content on the **first byte** — for crawlers, social/LLM scrapers, perceived speed, and a stable first paint — then hydrate to interactive. `@particle-academy/fancy-inertia` is built for this.
 
 ## The setup (Laravel + Inertia + Vite)
 
