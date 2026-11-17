@@ -11,6 +11,10 @@ This file starts at 0.1.1. Earlier releases are recorded in the git history.
 
 ## [0.1.3] - 2026-11-17
 
+### Added
+
+- `npm test` (Node's built-in runner, no dependencies): checks every manifest parses, the manifest version and `package.json` agree, the `fancy-ui` plugin and MCP ids are unchanged, the display name is Fancy Dev Kit, and no user-facing file still says "Fancy UI". The `package.json` is private and only carries the test script; the plugin still installs from this repo. Nothing to do.
+
 ### Changed
 
 - The `building-apps` and `components` skills also trigger on "fancy dev kit" phrasing, beside the old "fancy ui" phrases, which still work. Nothing to do.

@@ -13,6 +13,14 @@ works in this repo.
   `"skills": "./skills/"`, and the `fancy-ui` MCP server entry (`"type": "http"`).
 - `plugins/fancy-ui/skills/<name>/` — one directory per skill.
 
+## Checks
+
+The version appears in `plugins/fancy-ui/.codex-plugin/plugin.json` and in the
+private `package.json`. `npm test` (Node's built-in runner, no dependencies)
+checks the manifests: they parse, the versions agree, the `fancy-ui` ids are
+unchanged, the display name is Fancy Dev Kit, and no user-facing file says
+"Fancy UI".
+
 ## Changelog
 
 Update `CHANGELOG.md` in the same commit as the change.
