@@ -1,6 +1,6 @@
 ---
 name: building-apps
-description: Use when building or scaffolding a whole application with Fancy Dev Kit — not dropping in one component, but choosing the stack, structuring a Laravel + Inertia + React 19 + Tailwind v4 app, deciding which Fancy packages to reach for (Fancy Core = react-fancy + fancy-inertia + fancy-query), and applying suite-wide best practices. Triggers on "build an app with fancy ui", "set up / scaffold a fancy ui project", "fancy core", "which fancy package should I use", "fancy ui best practices", "full-stack fancy app", "starter kit", "project structure for fancy".
+description: Use when building or scaffolding a whole application with Fancy Dev Kit — not dropping in one component, but choosing the stack, structuring a Laravel + Inertia + React 19 + Tailwind v4 app, deciding which Fancy packages to reach for (Fancy Core = react-fancy + fancy-inertia + fancy-query), and applying suite-wide best practices. Triggers on "build an app with fancy ui", "set up / scaffold a fancy ui project", "build an app with fancy dev kit", "fancy core", "which fancy package should I use", "fancy ui best practices", "full-stack fancy app", "starter kit", "project structure for fancy".
 ---
 
 # Building a complete app with Fancy Dev Kit
