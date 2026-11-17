@@ -5,10 +5,10 @@
 A Codex plugin that connects agents to the hosted [Fancy Dev Kit](https://ui.particle.academy) registry MCP and provides skills for building Human+ UX applications.
 
 <!-- fancy-agents-note:start -->
-> **For agents.** Every Fancy package, this one included, is listed on the
-> Fancy MCP catalog server at `https://ui.particle.academy/mcp` (streamable HTTP, no API key;
-> MCP id `fancy-ui`), with install commands and docs. How an agent installs
-> and uses this package is in [AGENTS.md](https://github.com/Particle-Academy/fancy-ui-codex-plugin/blob/main/AGENTS.md).
+> **For agents.** This plugin connects an agent to the Fancy MCP catalog server
+> at `https://ui.particle.academy/mcp` (streamable HTTP, no API key; MCP id `fancy-ui`),
+> which lists the released Fancy packages with install commands and docs. How
+> an agent installs and uses the plugin is in [AGENTS.md](https://github.com/Particle-Academy/fancy-ui-codex-plugin/blob/main/AGENTS.md).
 <!-- fancy-agents-note:end -->
 
 ## Install
